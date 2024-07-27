@@ -15,5 +15,10 @@ public class CadastroAnimal {
         peixe.caminha();
         peixe.brinca();
         System.out.println("Nome do peixe: " + peixe.getNome());
+
+        Formiga formiga = new Formiga("Tião");
+        formiga.pernas = 0;
+        formiga.come();
+        System.out.println("Nome da formiga: " + formiga.getNome());
     }
 }
